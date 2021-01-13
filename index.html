@@ -1,0 +1,31 @@
+<html lang='en'>
+    <head>
+        <meta charset = 'utf-8'>
+        <title>Game of Dice</title>
+        <link href='./index.css' rel='stylesheet'></link>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"> 
+    </head>
+    <body>
+        <div class='game-wrapper'>
+        <h1 class='turn-indicator'>Player One Go!</h1>
+        <div class='game-field'>
+        <div class='count'>
+        <div class='scoreboard'>
+           <h2 class='score-announcement p1score'><span id='playerOneScore'></span></h2>
+           <h2 class='score-announcement p2score'><span id='playerTwoScore'></span></h2>
+        </div>
+        <div class='rolls'>
+            <h2>Player one rolled: <span id='playerOneRoll'></span></h3>
+            <h2>Player two rolled: <span id='playerTwoRoll'></span></h3>
+        </div>
+        </div>
+        <div class='buttons'>
+            <button id='roll' class='button'>Roll!</button>
+            <button id='reset' class='button'>Reset!</button>
+        </div>
+        </div>
+        </div>
+    </body>
+    <script src='./index.js'></script>
+</html>
